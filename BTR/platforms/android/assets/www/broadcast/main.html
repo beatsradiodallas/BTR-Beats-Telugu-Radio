@@ -1,0 +1,45 @@
+
+<body class="col-xs-12">
+<div id="home-container" class="col-xs-12" ng-controller="broadcastCtrl as controller">
+
+    <div class="playpause">
+        <videogular vg-theme="controller.config.theme.url" class="videogular-container audio">
+            <vg-media vg-src="controller.config.sources" vg-type="audio"></vg-media>
+            <vg-controls>
+                <vg-play-pause-button></vg-play-pause-button>
+                <!--<vg-time-display>{{ currentTime | date:'mm:ss':'+0000' }}</vg-time-display>
+                <vg-scrub-bar>
+                    <vg-scrub-bar-current-time></vg-scrub-bar-current-time>
+                </vg-scrub-bar>
+                <vg-time-display>{{ timeLeft | date:'mm:ss':'+0000' }}</vg-time-display>
+                <vg-volume>
+                    <vg-mute-button></vg-mute-button>
+                </vg-volume>-->
+            </vg-controls>
+        </videogular>
+    </div>
+
+     <div class="col-xs-12 callUsTxt">
+        <span class="col-xs-2"></span>
+        <span class="col-xs-8">Please call us to go on air</span>
+        <span class="col-xs-2"></span>
+    </div>
+
+    <div class="col-xs-12 feedback" style="text-align: center;">
+        <span class="col-xs-4"><a href="tel:+1 469-666-1246"><img src="images/callus.png" class="contactViaPhone"></a></span>
+        <span class="col-xs-4"><a href="https://www.facebook.com/Beats-Telugu-Radio-Dallas-368498250179149/" target="_parent"><img src="images/fb.png" class="contactViaEmail"/></a></span>
+         <span class="col-xs-4"><a href="mailto:Contact@beatsteluguradio.com"><img src="images/email.jpg" class="contactViaEmail"/></a>
+         </span>
+    </div>
+
+    <div class="col-xs-12 footer">
+        <span class="col-xs-12"> Copyright © 2017 Beats Media LLC, All rights reserved. </span>
+    </div>
+
+</div>
+
+
+
+
+
+</body>
